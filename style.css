@@ -9,10 +9,25 @@ html {
 body {
     align-items: center;
     display: flex;
-    font-family: 'Roboto', 'sans-serif';
-    flex-direction: column;
+    font-family: 'Ubuntu', 'sans-serif';
     justify-content: center;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.bg {
+    background: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-121ixid=eyJhcHBfaWQiOjEyMDd9auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    filter: blur(0);
+    height: calc(100vh + 6rem);
+    position: absolute;
+        left: -3rem;
+         top: -3rem;
+    width: calc(100vw + 6rem);
+    z-index: -1;    
+}
+
+.loading-text {
+    color: #fff;
+    font-size: 5rem;
 }
